@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3VS-1O-pwg">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--音效-->
+        <scene sceneID="alw-Sd-17O">
+            <objects>
+                <navigationController id="83I-MM-4xg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="音效" id="aGE-9t-E8h"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jRK-Vq-zIQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="b0S-fb-pgK" kind="relationship" relationship="rootViewController" id="l6i-FU-sWc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bey-66-Sj5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-127" y="-53"/>
+        </scene>
+        <!--Soundeffect View Controller-->
+        <scene sceneID="Vcs-yL-dSA">
+            <objects>
+                <viewController id="b0S-fb-pgK" customClass="SoundeffectViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="niC-hb-79W"/>
+                        <viewControllerLayoutGuide type="bottom" id="j4A-5n-Dlx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="X5g-cr-ptU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rWG-ec-pXE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="njh-Cg-CBM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="573" y="-63"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="34J-QF-xJt">
+            <objects>
+                <tabBarController id="3VS-1O-pwg" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="XDK-yi-eXc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="83I-MM-4xg" kind="relationship" relationship="viewControllers" id="ahA-9f-xzy"/>
+                        <segue destination="nbJ-52-psy" kind="relationship" relationship="viewControllers" id="J2j-Gm-IU9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YAc-8n-rj6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1003" y="470"/>
+        </scene>
+        <!--音频-->
+        <scene sceneID="Dps-8w-ljG">
+            <objects>
+                <navigationController id="nbJ-52-psy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="音频" id="b0g-4d-xYa"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oTa-jr-qdV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Tq8-cj-Ofq" kind="relationship" relationship="rootViewController" id="6gx-SG-Dtz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hTd-Ut-BdT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-119" y="660"/>
+        </scene>
+        <!--Audio Player View Controller-->
+        <scene sceneID="eIa-Hq-mH6">
+            <objects>
+                <viewController id="Tq8-cj-Ofq" customClass="audioPlayerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iQO-AK-Add"/>
+                        <viewControllerLayoutGuide type="bottom" id="pg7-6d-s3X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lDe-zN-GKi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1xq-AG-hJV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K74-aZ-Kln" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="541" y="660"/>
+        </scene>
+    </scenes>
+</document>
