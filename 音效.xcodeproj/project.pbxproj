@@ -35,6 +35,22 @@
 		3FF7E11A1D6DE8B800780242 /* playing_btn_pause_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF7E1191D6DE8B800780242 /* playing_btn_pause_n.png */; };
 		3FF7E11C1D6DEA4D00780242 /* 11aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FF7E11B1D6DEA4D00780242 /* 11aa.mp3 */; };
 		3FF7E11E1D6DEE7000780242 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FF7E11D1D6DEE7000780242 /* 11.jpg */; };
+		3FF7E1241D6DFED000780242 /* StreamingPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF7E1231D6DFED000780242 /* StreamingPlayerViewController.m */; };
+		3FF7E1271D6DFFED00780242 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF7E1261D6DFFED00780242 /* AudioStreamer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3FF7E1291D6E004600780242 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF7E1281D6E004600780242 /* CFNetwork.framework */; };
+		3FF7E12B1D6E005500780242 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF7E12A1D6E005500780242 /* QuartzCore.framework */; };
+		3FF7E12D1D6E006700780242 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF7E12C1D6E006700780242 /* MediaPlayer.framework */; };
+		3FF7E12F1D6E006E00780242 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF7E12E1D6E006E00780242 /* UIKit.framework */; };
+		3FF7E1321D6E009F00780242 /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF7E1311D6E009F00780242 /* UIDevice+Hardware.m */; };
+		3FF7E1351D6E00A700780242 /* LevelMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF7E1341D6E00A700780242 /* LevelMeterView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3FF7E13B1D6E096900780242 /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF7E1371D6E096900780242 /* playbutton.png */; };
+		3FF7E13C1D6E096900780242 /* stopbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF7E1381D6E096900780242 /* stopbutton.png */; };
+		3FF7E13D1D6E096900780242 /* loadingbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF7E1391D6E096900780242 /* loadingbutton.png */; };
+		3FF7E13E1D6E096900780242 /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF7E13A1D6E096900780242 /* pausebutton.png */; };
+		3FF7E1431D6E097300780242 /* loadingbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF7E13F1D6E097300780242 /* loadingbutton@2x.png */; };
+		3FF7E1441D6E097300780242 /* pausebutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF7E1401D6E097300780242 /* pausebutton@2x.png */; };
+		3FF7E1451D6E097300780242 /* playbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF7E1411D6E097300780242 /* playbutton@2x.png */; };
+		3FF7E1461D6E097300780242 /* stopbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF7E1421D6E097300780242 /* stopbutton@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +124,27 @@
 		3FF7E1191D6DE8B800780242 /* playing_btn_pause_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playing_btn_pause_n.png; sourceTree = "<group>"; };
 		3FF7E11B1D6DEA4D00780242 /* 11aa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 11aa.mp3; sourceTree = "<group>"; };
 		3FF7E11D1D6DEE7000780242 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		3FF7E1221D6DFED000780242 /* StreamingPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamingPlayerViewController.h; sourceTree = "<group>"; };
+		3FF7E1231D6DFED000780242 /* StreamingPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamingPlayerViewController.m; sourceTree = "<group>"; };
+		3FF7E1251D6DFFED00780242 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		3FF7E1261D6DFFED00780242 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		3FF7E1281D6E004600780242 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3FF7E12A1D6E005500780242 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3FF7E12C1D6E006700780242 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3FF7E12E1D6E006E00780242 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FF7E1301D6E009F00780242 /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
+		3FF7E1311D6E009F00780242 /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
+		3FF7E1331D6E00A700780242 /* LevelMeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelMeterView.h; sourceTree = "<group>"; };
+		3FF7E1341D6E00A700780242 /* LevelMeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelMeterView.m; sourceTree = "<group>"; };
+		3FF7E1361D6E034200780242 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3FF7E1371D6E096900780242 /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
+		3FF7E1381D6E096900780242 /* stopbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopbutton.png; sourceTree = "<group>"; };
+		3FF7E1391D6E096900780242 /* loadingbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingbutton.png; sourceTree = "<group>"; };
+		3FF7E13A1D6E096900780242 /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebutton.png; sourceTree = "<group>"; };
+		3FF7E13F1D6E097300780242 /* loadingbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loadingbutton@2x.png"; sourceTree = "<group>"; };
+		3FF7E1401D6E097300780242 /* pausebutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pausebutton@2x.png"; sourceTree = "<group>"; };
+		3FF7E1411D6E097300780242 /* playbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playbutton@2x.png"; sourceTree = "<group>"; };
+		3FF7E1421D6E097300780242 /* stopbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stopbutton@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +152,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF7E12F1D6E006E00780242 /* UIKit.framework in Frameworks */,
+				3FF7E12D1D6E006700780242 /* MediaPlayer.framework in Frameworks */,
+				3FF7E12B1D6E005500780242 /* QuartzCore.framework in Frameworks */,
+				3FF7E1291D6E004600780242 /* CFNetwork.framework in Frameworks */,
 				3FF7E0E51D6DDA9000780242 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +180,10 @@
 		3FF7E0A51D6DDA5B00780242 = {
 			isa = PBXGroup;
 			children = (
+				3FF7E12E1D6E006E00780242 /* UIKit.framework */,
+				3FF7E12C1D6E006700780242 /* MediaPlayer.framework */,
+				3FF7E12A1D6E005500780242 /* QuartzCore.framework */,
+				3FF7E1281D6E004600780242 /* CFNetwork.framework */,
 				3FF7E0E41D6DDA9000780242 /* AudioToolbox.framework */,
 				3FF7E0B01D6DDA5B00780242 /* 音效 */,
 				3FF7E0CA1D6DDA5B00780242 /* 音效Tests */,
@@ -161,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				3FF7E0EF1D6DDFBB00780242 /* Masonry */,
+				3FF7E1211D6DFEA000780242 /* AudioStreamer */,
 				3FF7E0B41D6DDA5B00780242 /* AppDelegate.h */,
 				3FF7E0B51D6DDA5B00780242 /* AppDelegate.m */,
 				3FF7E0B71D6DDA5B00780242 /* ViewController.h */,
@@ -182,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				3FF7E0B21D6DDA5B00780242 /* main.m */,
+				3FF7E1361D6E034200780242 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -250,6 +297,29 @@
 				3FF7E1091D6DDFBB00780242 /* ViewController+MASAdditions.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		3FF7E1211D6DFEA000780242 /* AudioStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				3FF7E1331D6E00A700780242 /* LevelMeterView.h */,
+				3FF7E1341D6E00A700780242 /* LevelMeterView.m */,
+				3FF7E1301D6E009F00780242 /* UIDevice+Hardware.h */,
+				3FF7E1311D6E009F00780242 /* UIDevice+Hardware.m */,
+				3FF7E1251D6DFFED00780242 /* AudioStreamer.h */,
+				3FF7E1261D6DFFED00780242 /* AudioStreamer.m */,
+				3FF7E13F1D6E097300780242 /* loadingbutton@2x.png */,
+				3FF7E1401D6E097300780242 /* pausebutton@2x.png */,
+				3FF7E1411D6E097300780242 /* playbutton@2x.png */,
+				3FF7E1421D6E097300780242 /* stopbutton@2x.png */,
+				3FF7E1371D6E096900780242 /* playbutton.png */,
+				3FF7E1381D6E096900780242 /* stopbutton.png */,
+				3FF7E1391D6E096900780242 /* loadingbutton.png */,
+				3FF7E13A1D6E096900780242 /* pausebutton.png */,
+				3FF7E1221D6DFED000780242 /* StreamingPlayerViewController.h */,
+				3FF7E1231D6DFED000780242 /* StreamingPlayerViewController.m */,
+			);
+			path = AudioStreamer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,15 +429,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF7E1161D6DE8A600780242 /* playing_btn_play_n.png in Resources */,
+				3FF7E1451D6E097300780242 /* playbutton@2x.png in Resources */,
 				3FF7E0C11D6DDA5B00780242 /* LaunchScreen.storyboard in Resources */,
 				3FF7E11A1D6DE8B800780242 /* playing_btn_pause_n.png in Resources */,
 				3FF7E0BE1D6DDA5B00780242 /* Assets.xcassets in Resources */,
 				3FF7E0BC1D6DDA5B00780242 /* Main.storyboard in Resources */,
 				3FF7E11E1D6DEE7000780242 /* 11.jpg in Resources */,
 				3FF7E10A1D6DDFBB00780242 /* Info.plist in Resources */,
+				3FF7E1461D6E097300780242 /* stopbutton@2x.png in Resources */,
+				3FF7E1431D6E097300780242 /* loadingbutton@2x.png in Resources */,
+				3FF7E13B1D6E096900780242 /* playbutton.png in Resources */,
+				3FF7E1441D6E097300780242 /* pausebutton@2x.png in Resources */,
+				3FF7E13E1D6E096900780242 /* pausebutton.png in Resources */,
 				3FF7E0EA1D6DDD2900780242 /* REC001.mp3 in Resources */,
 				3FF7E1181D6DE8B300780242 /* 1bf_tuodong.png in Resources */,
 				3FF7E11C1D6DEA4D00780242 /* 11aa.mp3 in Resources */,
+				3FF7E13D1D6E096900780242 /* loadingbutton.png in Resources */,
+				3FF7E13C1D6E096900780242 /* stopbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,17 +470,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF7E1241D6DFED000780242 /* StreamingPlayerViewController.m in Sources */,
 				3FF7E1121D6DDFBB00780242 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				3FF7E0B91D6DDA5B00780242 /* ViewController.m in Sources */,
+				3FF7E1271D6DFFED00780242 /* AudioStreamer.m in Sources */,
 				3FF7E1101D6DDFBB00780242 /* MASViewConstraint.m in Sources */,
 				3FF7E0EE1D6DDE1500780242 /* audioPlayerViewController.m in Sources */,
 				3FF7E0B61D6DDA5B00780242 /* AppDelegate.m in Sources */,
 				3FF7E0B31D6DDA5B00780242 /* main.m in Sources */,
 				3FF7E1131D6DDFBB00780242 /* View+MASAdditions.m in Sources */,
+				3FF7E1321D6E009F00780242 /* UIDevice+Hardware.m in Sources */,
 				3FF7E10B1D6DDFBB00780242 /* MASCompositeConstraint.m in Sources */,
 				3FF7E10F1D6DDFBB00780242 /* MASViewAttribute.m in Sources */,
 				3FF7E10D1D6DDFBB00780242 /* MASConstraintMaker.m in Sources */,
 				3FF7E1111D6DDFBB00780242 /* NSArray+MASAdditions.m in Sources */,
+				3FF7E1351D6E00A700780242 /* LevelMeterView.m in Sources */,
 				3FF7E1141D6DDFBB00780242 /* ViewController+MASAdditions.m in Sources */,
 				3FF7E10C1D6DDFBB00780242 /* MASConstraint.m in Sources */,
 				3FF7E10E1D6DDFBB00780242 /* MASLayoutConstraint.m in Sources */,
@@ -549,6 +631,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/音效/PrefixHeader.pch";
 				INFOPLIST_FILE = "音效/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Jeremy.com.product.--";
@@ -560,6 +644,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/音效/PrefixHeader.pch";
 				INFOPLIST_FILE = "音效/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Jeremy.com.product.--";
@@ -632,6 +718,7 @@
 				3FF7E0DD1D6DDA5B00780242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FF7E0DE1D6DDA5B00780242 /* Build configuration list for PBXNativeTarget "音效Tests" */ = {
 			isa = XCConfigurationList;
@@ -640,6 +727,7 @@
 				3FF7E0E01D6DDA5B00780242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FF7E0E11D6DDA5B00780242 /* Build configuration list for PBXNativeTarget "音效UITests" */ = {
 			isa = XCConfigurationList;
@@ -648,6 +736,7 @@
 				3FF7E0E31D6DDA5B00780242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
